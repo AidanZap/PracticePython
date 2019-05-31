@@ -1,10 +1,10 @@
-#Exercise8
-	#Create a rock paper scissors game
+# Exercise8
+	# Create a rock paper scissors game
 
 import random, os, time
 def cpu_game():
 	choice = input("Rock / Paper / Scissors?:")
-	cpu_choice = random.randint(1,3)
+	cpu_choice = random.randint(1, 3)
 	if choice.lower() == "rock":
 		if cpu_choice == 1:
 			print("CPU chooses rock.\nTie game!")
